@@ -4,9 +4,6 @@ import streamlit as st
 st.title('Calculadora de Balance de Masa para Pulpa')
 st.write('Resuelve el problema de balance de masa de pulpa que se muestra en la imagen.')
 
-# Mostrar la imagen del ejercicio
-st.image("image_10f1d4.jpg", caption="Ejercicio 1. Pulpa", use_container_width=True)
-
 # Sección para la entrada de datos del usuario
 st.header('Entrada de Datos')
 st.markdown('---')
@@ -54,4 +51,3 @@ st.info('El balance de masa se realiza con las siguientes ecuaciones:\n\n'
         '**Balance General:** $M_1 + M_2 = M_3$\n\n'
         '**Balance de Sólidos Solubles:** $M_1 X_1 + M_2 X_2 = M_3 X_3$\n\n'
         'Donde $X_2 = 1$ (100% azúcar) y $X_1$ y $X_3$ son las concentraciones en fracción.')
-
