@@ -8,18 +8,18 @@ st.write('Resuelve el problema de balance de masa de pulpa que se muestra en la 
 st.header('Entrada de Datos')
 st.markdown('---')
 
-# M1 - Pulpa Inicial (valor fijo según el problema)
+# M1 - Pulpa Inicial
 st.subheader('Pulpa Inicial')
-m1 = st.number_input('Masa de la Pulpa Inicial (kg)', value=50.0, step=0.1, format="%.2f", disabled=True)
+m1 = st.number_input('Masa de la Pulpa Inicial (kg)', value=50.0, step=0.1, format="%.2f")
 st.info('El valor de la pulpa inicial (M1) es de 50 kg, según el enunciado del problema.')
 
-# X1 - Sólidos Solubles en la Pulpa Inicial (valor fijo según el problema)
+# X1 - Sólidos Solubles en la Pulpa Inicial
 st.subheader('Concentración de Sólidos Solubles (Azúcar)')
-x1 = st.number_input('Concentración de Azúcar en la Pulpa Inicial (%)', value=7.0, step=0.1, format="%.2f", disabled=True)
+x1 = st.number_input('Concentración de Azúcar en la Pulpa Inicial (%)', value=7.0, step=0.1, format="%.2f")
 st.info('La concentración de sólidos solubles (azúcar) en la pulpa inicial (X1) es de 7%, según el enunciado del problema.')
 
-# X3 - Grados Brix deseados en la Pulpa Final (valor fijo según el problema)
-x3 = st.number_input('Concentración de Azúcar Deseada (%)', value=10.0, step=0.1, format="%.2f", disabled=True)
+# X3 - Grados Brix deseados en la Pulpa Final
+x3 = st.number_input('Concentración de Azúcar Deseada (%)', value=10.0, step=0.1, format="%.2f")
 st.info('La concentración de azúcar deseada en la pulpa final (X3) es de 10%, según el enunciado del problema.')
 
 # Sección de resultados
